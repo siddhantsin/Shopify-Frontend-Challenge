@@ -4,7 +4,7 @@ import { Button, Row, Col } from "antd";
 const SUGGESTION_LIST = [
   {
     id: 1,
-    text: "Write a story about a happy dinosaur",
+    text: "Write a brave story about Zeus",
   },
   {
     id: 2,
@@ -12,7 +12,7 @@ const SUGGESTION_LIST = [
   },
   {
     id: 3,
-    text: "Write a sad poem about two lovers",
+    text: "Describe the last moments of Romeo and Juliet",
   },
 ];
 

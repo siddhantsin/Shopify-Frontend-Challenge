@@ -1,30 +1,29 @@
 import React, { useEffect } from "react";
 import { Card, Typography, Row, Col } from "antd";
-import { fetchAIResponse } from "../Services/OpenAPI";
 
 const { Title } = Typography;
 
-const Responses = () => {
+const Response = ({ response, prompt }) => {
   useEffect(() => {}, []);
 
   return (
-    <Card>
+    <Card style={{ marginBottom: "15px" }}>
       <Row>
         <Col xs={6}>
           <Title level={5}>Prompt</Title>
         </Col>
         <Col xs={18}>
-          <Typography>Some prompt that is quite big in sizw</Typography>
+          <Typography>{prompt}</Typography>
         </Col>
         <Col xs={6}>
           <Title level={5}>Response</Title>
         </Col>
         <Col xs={18}>
-          <Typography>Some response that is quite big in sizw</Typography>
+          <Typography>{response}</Typography>
         </Col>
       </Row>
     </Card>
   );
 };
 
-export default Responses;
+export default Response;

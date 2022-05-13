@@ -4,11 +4,11 @@ import Suggestions from "./Suggestions";
 
 const { TextArea } = Input;
 
-const InputPrompt = () => {
+const InputPrompt = ({ onAdd, loading }) => {
   const [form] = Form.useForm();
 
   const onFinish = (values) => {
-    console.log("Success:", values);
+    onAdd(values.prompt);
   };
 
   const onFinishFailed = (errorInfo) => {
@@ -38,7 +38,7 @@ const InputPrompt = () => {
         </Col>
         <Col>
           <Form.Item>
-            <Button type="primary" htmlType="submit">
+            <Button type="primary" htmlType="submit" loading={loading}>
               Submit
             </Button>
           </Form.Item>
