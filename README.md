@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# Get Inspired by AI to Write Your Own Fictional Story 🧙🏻‍♂️🐉⚔️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple app powered by OpenAI's [**text-curie-001**](https://beta.openai.com/docs/engines/gpt-3) AI engine. This AI engine can understand and generate natural language and is fine tuned to give you creative ideas for your next fictional work. Just submit a prompt and behold as an AI generated piece of a story idea unfolds right before you!
 
-## Available Scripts
+## Deployed Version
+
+You can find the deployed version of this app [here](https://generate-fiction-with-ai.netlify.app/).
+
+## Want to Contribute? Here are the Available Scripts!
 
 In the project directory, you can run:
 
@@ -39,32 +43,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
