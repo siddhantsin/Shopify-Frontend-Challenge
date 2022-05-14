@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { Typography, Row, Col, notification, Card, Empty, Tooltip } from "antd";
+import { InfoCircleOutlined } from "@ant-design/icons";
+
 import "./App.css";
-import { Typography, Row, Col, notification, Card, Empty } from "antd";
 import InputPrompt from "./Components/InputPrompt";
 import ResponseList from "./Components/ResponseList";
-import { fetchAIResponse } from "./Services/OpenAPI";
+import { fetchAIResponse } from "./Services/OpenAI";
 
 const { Title } = Typography;
 
@@ -37,7 +39,15 @@ function App() {
         <Title>Get Inspired by AI to Write Your Own Fiction!</Title>
         <Title level={5}>Enter a prompt</Title>
         <InputPrompt onAdd={onAdd} loading={loading} />
-        <Title level={4}>Responses</Title>
+        <Row align="top">
+          <Title level={4} style={{ marginRight: "3px" }}>
+            Responses
+          </Title>
+          <Tooltip title="Unsatisfied with the result? Just hit the submit button again for a different response!">
+            <InfoCircleOutlined style={{ color: "deepskyblue" }} />
+          </Tooltip>
+        </Row>
+
         {loading && <Card loading={true} style={{ marginBottom: "15px" }} />}
         {responses.length > 0 || loading ? (
           <ResponseList responses={responses} />
