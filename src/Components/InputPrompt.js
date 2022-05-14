@@ -28,7 +28,10 @@ const InputPrompt = ({ onAdd, loading }) => {
       autoComplete="off"
       form={form}
     >
-      <Form.Item name="prompt">
+      <Form.Item
+        name="prompt"
+        rules={[{ required: true, message: "Please input a prompt!" }]}
+      >
         <TextArea allowClear />
       </Form.Item>
 
