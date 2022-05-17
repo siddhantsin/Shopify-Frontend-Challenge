@@ -12,7 +12,7 @@ To run any of the following commands, you will need to have [node.js](https://no
 
 ### `npm install`
 
-Installs all the required libraries needed to run this app inside a folder called ```node_modules```.
+Installs all the required libraries needed to run this app. The required moduels are installed inside a folder called ```node_modules```.
 
 ### `npm start`
 
