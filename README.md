@@ -8,7 +8,11 @@ You can find the deployed version of this app [here](https://generate-fiction-wi
 
 ## Want to Contribute? Here are the Available Scripts!
 
-In the project directory, you can run:
+To run any of the following commands, you will need to have [node.js](https://nodejs.org/en/) installed on your system. In the project directory, you can run:
+
+### `npm install`
+
+Installs all the required libraries needed to run this app inside a folder called ```node_modules```.
 
 ### `npm start`
 
